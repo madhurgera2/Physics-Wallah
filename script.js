@@ -8,6 +8,7 @@ function formatSizeUnits(bytes){
     return bytes;
   }
   function myFunction(){
+    document.getElementById('hide').style.display = "none";
     var myfolder = document.getElementById("myFile");
     var myfiles=myfolder.files;
     console.log(myfiles);
